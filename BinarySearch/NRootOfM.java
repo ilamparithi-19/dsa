@@ -23,7 +23,7 @@ class NRootOfM {
             return nums[0];
         }
         int left = 0;
-        int right = nums.length - 2;
+        int right = nums.length - 2; // if last element is answer left ind will cross over at the last step
         int mid;
         // while(left <= right) {
         //     middle = (left + right) / 2;
