@@ -21,7 +21,6 @@ public class TreeNode {
         tree.right.left = new TreeNode(12);
         tree.right.right.left = new TreeNode(14);
         rightSideView(tree);
-       
     }
     public static List<Integer> rightSideView(TreeNode root) {
         List<Integer> leftResult = new ArrayList<Integer>();
