@@ -15,6 +15,10 @@ class Solution {
                 str += s.charAt(i);
             }
         }
+        if(str.length() > 0) {
+            stack.push(str);
+                str = "";
+        }
         String ans = "";
         while(stack.size() != 1) {
             ans += stack.peek() + " ";
