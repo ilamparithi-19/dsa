@@ -33,11 +33,11 @@ public class Fibbonacci {
     private static int fib(int n, int[] arr) {
         int prev = 1, prev1 = 0;
         for(int i = 2; i <= n; i++) {
-            arr[i] = prev + prev1;
+            int temp = prev + prev1;
             prev1 = prev;
-            prev = arr[i];
+            prev = temp;
         }
-        return arr[n];
+        return prev;
     }
 
 }
