@@ -18,7 +18,7 @@ class LongestConsecutive {
             if(!numSet.contains(nums[i] - 1)) {
                 maxLen = Math.max(maxLen, 1);
                 int k = i;
-                while(k < nums.length &&numSet.contains(nums[k])&& nums) {
+                while(k < nums.length &&numSet.contains(nums[k])) {
                     maxLen++;
                     k++;
                 }
