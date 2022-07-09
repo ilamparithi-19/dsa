@@ -67,7 +67,7 @@ public static void main(String args[]) {
     
     int k = 2;
     Node newHead = rotateRight(head,k);//calling function for rotating right 
-    of the nodes by k times
+    // of the nodes by k times
     
     System.out.println("After "+k+" iterations: ");
     printList(newHead);//list after rotating nodes
