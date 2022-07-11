@@ -1,6 +1,7 @@
 // Java Program to find the
 // solution of the arithmetic
 // using the stack
+
 import java.io.*;
 import java.util.*;
 
@@ -36,7 +37,7 @@ class solution {
 				choice = tokens[i];
 			}
 
-			// Switch-Case
+			// Switch-Case 
 			switch (choice) {
 			case "+":
 
@@ -79,6 +80,7 @@ class solution {
 			case "/":
 
 				// Performing the "/" operation by poping
+
 				// put the first two character
 				// and then again store back to the stack
 
