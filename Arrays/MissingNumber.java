@@ -1,5 +1,3 @@
-package Arrays;
-
 class Solution {
     public int missingNumber(int[] nums) {
         int sum1 = 0, sum2 = 0;
