@@ -27,7 +27,8 @@ class Solution {
             for(int i = bottom; i >= top && result.size() < size; i--) {
                 result.add(matrix[i][left]);
             }
-            left--;
+            left++;
+            
         }
         return result;
     }
