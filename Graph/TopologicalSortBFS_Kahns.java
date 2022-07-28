@@ -2,7 +2,7 @@ package Graph;
 
 import java.util.*;
 
-public class TopologicalSortBFS {
+public class TopologicalSortBFS_Kahns {
     static int[] topoSort(int N, ArrayList<ArrayList<Integer>> adj) {
         int topo[] = new int[N];
         int indegree[] = new int[N];
