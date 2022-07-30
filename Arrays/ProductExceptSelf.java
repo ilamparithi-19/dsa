@@ -1,9 +1,9 @@
 class ProductExceptSelf {
     public static void main(String[] args) {
-        int[] arr = new int{1,2,3,4};
+        int[] arr = {1,2,3,4};
         productExceptSelf(arr);
     }
-    private productExceptSelf(int[] arr) {
+    private static int[] productExceptSelf(int[] arr) {
         int[] output = new int[arr.length];
         int L = arr.length;
         output[0] = 1;
