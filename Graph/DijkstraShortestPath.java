@@ -78,7 +78,7 @@ import java.util.*;
             adj.get(2).add(new Node(4, 1));
             adj.get(4).add(new Node(2, 1));
             
-            Main obj = new Main(); 
+            DijkstraShortestPath obj = new DijkstraShortestPath(); 
             obj.shortestPath(0, adj, n); 
             
         }
