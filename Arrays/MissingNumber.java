@@ -10,4 +10,16 @@ class Solution {
         
         return sum2-sum1;
     }
+
+    // if(nums.length == 0) {
+    //     return -1;
+    // }
+    // int result = 0;
+    // for(int i = 0 ; i < nums.length ; i++) {
+    //     if(nums[i] != nums.length) {
+    //         result = result ^ nums[i] ^ i;
+    //     }
+    // }
+    // return result;
+
 }
