@@ -2,6 +2,7 @@ package Arrays;
 
 import java.util.HashSet;
 import java.util.Set;
+
 class Solution {
     public int longestConsecutive(int[] nums) {
         if(nums.length < 1) return 0;
