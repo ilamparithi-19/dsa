@@ -14,6 +14,7 @@ class Solution {
             int curStart = intervals[i][0];
             if (curStart <= ans.get(ans.size() - 1)[1]) {
                 //do the merging
+                // consider [1, 5] [2, 4], We should not result in [1, 4]
                 ans.get(ans.size() - 1)[1] =
                     Math.max(ans.get(ans.size() - 1)[1], intervals[i][1]);
             } else {
