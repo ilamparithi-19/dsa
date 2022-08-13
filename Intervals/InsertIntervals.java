@@ -3,7 +3,7 @@ package Intervals;
 import java.util.ArrayList;
 import java.util.List;
 
-class MergeIntervals {
+class InsertIntervals {
 
     public int[][] insert(int[][] intervals, int[] newInterval) {
         List<int[]> res = new ArrayList<>();
