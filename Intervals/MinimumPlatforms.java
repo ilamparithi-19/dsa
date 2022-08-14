@@ -3,6 +3,7 @@ package Intervals;
 import java.util.*;
  
 // /https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+// Same as Meeting Rooms II - Leetcode 253
 
 class MinimumPlatforms {
  
