@@ -1,4 +1,4 @@
-package BinaryTree;
+package BinaryTree.Traversals;
 
 import java.util.*;
 class TreeNode {
