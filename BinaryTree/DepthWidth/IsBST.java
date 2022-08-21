@@ -1,4 +1,6 @@
-package BinaryTree;
+package BinaryTree.DepthWidth;
+
+import BinaryTree.Node;
 
 public class IsBST {
     class TreeNode

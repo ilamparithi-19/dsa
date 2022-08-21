@@ -1,5 +1,7 @@
 package BinaryTree;
 
+import BinaryTree.Traversals.TreeNode;
+
 public class PrintLeaves {
 
     public static void main(String[] args) throws Exception {
