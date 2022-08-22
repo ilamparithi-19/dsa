@@ -1,11 +1,14 @@
 package BinaryTree;
 
-class TreeNode {
-    int data;
-    TreeNode left;
-    TreeNode right;
-}
+
+
+
 class InvertTree {
+    class TreeNode {
+        int data;
+        TreeNode left;
+        TreeNode right;
+    }
     private TreeNode invertTree(TreeNode node) {
         if(node == null) {
             return node;
