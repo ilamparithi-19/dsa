@@ -1,8 +1,5 @@
 package BinaryTree;
 
-
-
-
 class InvertTree {
     class TreeNode {
         int data;
