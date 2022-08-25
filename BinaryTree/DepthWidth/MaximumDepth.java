@@ -1,5 +1,6 @@
 package BinaryTree.DepthWidth;
 
+import BinaryTree.TreeNode;
 
 public class MaximumDepth {
 
