@@ -25,6 +25,6 @@ public class DiameterOfTree {
         int lh = height(root.left, dia); 
         int rh = height(root.right, dia); 
         dia[0] = Math.max(dia[0], lh+rh);
-        return 1 + Math.max(lh, rh); 
+        return 1 + Math.max(lh, rh); // This is used in height of binary tree
     }
 }
