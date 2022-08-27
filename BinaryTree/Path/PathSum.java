@@ -1,4 +1,4 @@
-package BinaryTree;
+package BinaryTree.Path;
 
 import BinaryTree.Traversals.TreeNode;
 
