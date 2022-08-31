@@ -1,6 +1,6 @@
 package BinaryTree;
 
-public class TreeNode {
+ class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;

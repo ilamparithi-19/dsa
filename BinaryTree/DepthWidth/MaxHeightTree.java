@@ -1,6 +1,5 @@
 package BinaryTree.DepthWidth;
-
-import BinaryTree.Traversals.TreeNode;
+ 
 
 class Solution {
     public int maxDepth(TreeNode root) {
